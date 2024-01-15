@@ -4,8 +4,8 @@ export class ClassComponent extends Component {
   render() {
     return (
       <>
-        <h1>Zadaca</h1>
-        <p>Klasna komponenta</p>
+       <h1>Klasna komponenta</h1>
+        <p>{this.props.drugiIspis}</p>
       </>
     );
   }
