@@ -8,7 +8,7 @@ const App = () => {
     "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi obcaecati incidunt magni quas debitis alias repellendus? Dolorem a dicta architecto.";
   return (
     <>
-      <ClassComponent />
+      <ClassComponent drugiIspis={drugiIspis}/>
       <FunctionComponent ispis={ispis} />
     </>
   );
